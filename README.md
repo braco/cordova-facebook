@@ -120,7 +120,7 @@ Initializes the plugin. Must be called before calling any other function.
 				console.log("Expires: " + response.expirationDate);
 				console.log("Permissions are: " + response.permissions);
 			}
-	}), failureCallback);
+	}, failureCallback);
 
 ***
 
